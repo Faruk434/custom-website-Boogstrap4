@@ -1,0 +1,74 @@
+/*==botstrap break points start==*/
+
+/*Small (sm) devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+      .header-section h1 {
+          font-size: 40px!important;
+      }
+    .footersection img {
+        margin-left: 40px;
+    }
+
+}
+
+/*Medium (md) devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+   #servicediv {
+      height: 1259px;
+}
+    
+      
+ #servicediv h4 {
+	padding: 0px 0px;
+}
+    
+    .project-work {
+    padding: 50px 11px;
+    }
+    
+   .pricing {
+    padding: 58px;
+    }
+    
+    .contactus {
+     height: 684px;
+    padding: 100px 48px;
+        margin-top: -50px;
+}
+    
+    .footersection h3 {
+    margin-top: 20px;
+}
+    
+}
+
+/*Large (lg) devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+    
+    .contactus {
+	padding: 100px 0px;
+}
+    
+    .service_section {
+		height: 922px;
+}
+    
+      
+    .footer_right{
+        
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/*Extra (xl) large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
+
+/*==botstrap break points end==*/
